@@ -71,6 +71,10 @@ pip install -r requirements.txt
 # (optional) install PyTorch with proper CUDA
 conda install pytorch==2.3.0 torchvision==0.18.0 torchaudio==2.3.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
+```
+pip install --upgrade "setuptools<66"
+```
+
 
 We use [bkse](https://github.com/VinAIResearch/blur-kernel-space-exploring) for nonlinear blurring and [motionblur](https://github.com/LeviBorodenko/motionblur) for motion blur.
 
